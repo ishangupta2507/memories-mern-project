@@ -23,7 +23,51 @@ The **Memories** project is a MERN stack application designed to allow users to 
 To get started with the project, follow these steps:
 
 1. **Clone the repository:**
+
    ```sh
    git clone https://github.com/ishangupta2507/memories-mern-project.git
    cd memories-mern-project
 
+   ```
+
+2. **Install server dependencies:**
+
+   ```sh
+   cd server
+   npm install
+
+   ```
+
+3. **Install client dependencies:**
+
+   ```sh
+    cd ../client
+    npm install
+   ```
+
+4. **Set up environment variables:**
+   Create a .env file in the server directory and add the following:
+
+   ```sh
+   MONGO_URI=your_mongo_connection_string
+   PORT=5000
+
+   ```
+
+## Usage
+
+Run the server
+
+```sh
+cd server
+npm start
+
+```
+
+Run the client
+
+```sh
+cd client
+npm start
+
+```
