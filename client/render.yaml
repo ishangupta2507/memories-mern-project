@@ -4,17 +4,13 @@ services:
     env: node
     plan: free
     buildCommand: |
-      # Print the current directory
-      pwd
-      # List files to verify structure
-      ls -la
-      # Set execute permissions for react-scripts and any other necessary binaries
+      # Ensure execute permissions for react-scripts
       chmod +x node_modules/.bin/react-scripts
       # Install dependencies
       npm install
     startCommand: |
-      # Start the application
-      npm start
+      # Use npx to start the React app
+      npx react-scripts start
     envVars:
       - key: NODE_VERSION
-        value: 20.15.1
+        value: 16.20.2
