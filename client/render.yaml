@@ -4,12 +4,8 @@ services:
     env: node
     plan: free
     buildCommand: |
-      # Ensure execute permissions
-      chmod +x node_modules/.bin/react-scripts
-      # Install dependencies
       npm install
     startCommand: |
-      # Use npx to run react-scripts
       npx react-scripts start
     envVars:
       - key: NODE_VERSION
