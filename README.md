@@ -1,5 +1,7 @@
 # Memories-mern-project
 
+![Memories](./screenshot/memories%20ss.png)
+
 ## Introduction
 
 The **Memories** project is a MERN stack application designed to allow users to create, read, update, and delete (CRUD) memories. This application serves as a platform where users can post interesting events from their lives. The responsive user interface ensures that the application looks great on both desktop and mobile devices.
@@ -71,3 +73,12 @@ cd client
 npm start
 
 ```
+
+## Contact
+
+For any inquiries or feedback, feel free to contact me:
+
+- **Email**: [ishan250702@gmail.com](mailto:ishan250702@gmail.com)
+- **LinkedIn**: [Ishan Gupta](https://www.linkedin.com/in/ishan-gupta-493144227)
+- **GitHub**: [ishangupta2507](https://github.com/ishangupta2507)
+
